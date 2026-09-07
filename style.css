@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Caacupe+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bowlby+One&family=Caacupe+One&display=swap');
+
+body{
+    background-color: #0c130e;
+}
+h1 {
+color: #ededed;
+    font-size: 9rem;
+    font-family: "Bowlby One", cursive;
+    margin-bottom: 20px;
+}
+h2{
+    color: #ffffff;
+    font-family: "Bowlby One", cursive;
+    
+
+
+}
+p{
+    color: #ffffff;
+    font-family:"Afacad Flux", cursive;
+    text-align:initial;
+    line-height: 1.6;
+   
+}
+p1{
+    color: #f5f3f3;
+    font-family:"Afacad Flux", cursive;
+    text-align:center;
+    line-height: 1.6;
+     
+}
+p2{
+    color: #f5f3f3;
+    font-family:"Afacad Flux", cursive;
+    text-align:center;
+    line-height: 1.6;
+}
+
+
+    
