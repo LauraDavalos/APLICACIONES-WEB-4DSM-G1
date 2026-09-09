@@ -40,11 +40,33 @@
             text-align: center;
         }
 
-        
         img {
             max-width: 100%;
             height: auto;
             border-radius: 8px;
+        }
+
+        /* Contenedor para alinear la foto y el texto de Octavio Elizondo lado a lado */
+        .bio-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .bio-container img {
+            max-width: 280px;
+            flex-shrink: 0;
+        }
+
+        @media (max-width: 600px) {
+            .bio-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .bio-container img {
+                max-width: 100%;
+            }
         }
     </style>
 </head>
@@ -54,11 +76,19 @@
         <h1 style="font-size: 42px;" class="texto-centrado">EXPLORACIONES URBANAS</h1>
         
         <p class="texto-centrado">
-            En este espacio se recopilan las exploraciones urbanas más impactantes de YouTube:
+            En este espacio se recopilan las 5 exploraciones urbanas más impactantes de YouTube:
             Hospitales psiquiátricos abandonados, túneles, cerros, cuarteles abandonados, casas malditas. Si buscas terror real, prepárate
             para recorrer con los exploradores más audaces los misterios y fenómenos que esconde nuestro planeta.
         </p>
-
+        <h2 class="texto-centrado"> ¿QUIÉN ES OCTAVIO ELIZONDO?</h2>
+        
+        <div class="bio-container">
+            <img src="images/OE.jpg" alt="Foto Octavio Elizondo">
+            <p class="texto-justificado">
+                En sus inicios en el año 2007 fué uno de los pilares más importantes del programa
+                EXTRANORMAL. Durante 14 años a dado luz y paz a aquellos lugares marcados por la obscuridad.
+            </p>
+        </div>
         
         <div class="mycontainer">
             <h2 class="texto-centrado">EL RETORNO AL INFIERNO DEL CUARTEL: RECORRIDO ESPECIAL Episodio 51</h2>
@@ -90,7 +120,6 @@
 
         <hr style="border: 0.5px solid #333; margin: 40px 0;">
 
-       
         <div>
             <h2 class="texto-centrado">TODO SALIÓ MAL! Episodio 14: La investigación MÁS FUERTE DEL 2025 hasta ahora.</h2>
             <p class="texto-centrado">Puedes dar clic a la imagen para ver el video</p>
